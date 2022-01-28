@@ -48,4 +48,11 @@
     -fx-background-radius: 20px;
     -fx-effect: dropshadow(three-pass-box, rgba(45, 45, 45, 0.7), 10, 0, 0, 0);
 }
+.homeSmPane:hover{
+    -fx-background-color: rgba(86, 197, 150, 0.2);
+}
+.homeSmPane:pressed{
+    -fx-background-color: #f3f3f3;
+}
+
 
