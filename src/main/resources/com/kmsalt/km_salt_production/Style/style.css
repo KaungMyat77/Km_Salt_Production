@@ -1,0 +1,51 @@
+.bgMain{
+    -fx-background-color: #fdfdfd;
+}
+#navMenu{
+    -fx-background-color: #56c596;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(45, 45, 45, 0.7), 10, 0, 0, 0);
+}
+#logMenu{
+    -fx-background-color:#F4F5F6;
+    -fx-effect: dropshadow(three-pass-box, rgba(45, 45, 45, 0.7), 10, 0, 0, 0);
+    -fx-background-radius: 20px;
+}
+.textShadow{
+    -fx-text-fill: #F4F5F6;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.7), 10, 0, 0, 0);
+}
+.menuBtnActive{
+    -fx-background-color: #AFCEDD;
+    -fx-background-radius: 20px 20px 20px 20px;
+
+}
+.menuBtn{
+    -fx-background-color: #56c596;
+    -fx-background-radius: 20px 20px 20px 20px;
+}
+.menuBtn:hover{
+    -fx-background-color: #439b76;
+}
+.menuBtn:pressed{
+    -fx-background-color: #4eaf85;
+}
+.outText{
+    -fx-text-fill: #ee0404;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.7), 10, 0, 0, 0);
+}
+.outText:hover{
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 1.4em;
+    -fx-effect: dropshadow(three-pass-box, rgba(249, 3, 3, 0.7), 10, 0, 0, 0);
+}
+.outText:pressed{
+    -fx-text-fill: #56c596;
+    -fx-effect: dropshadow(three-pass-box, rgb(86, 197, 150), 10, 0, 0, 0);
+}
+.homeSmPane{
+    -fx-background-color: #fdfdfd;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(45, 45, 45, 0.7), 10, 0, 0, 0);
+}
+
